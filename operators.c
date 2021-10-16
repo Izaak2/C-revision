@@ -17,6 +17,11 @@ int main()
 
     // left shifts
     char var = 3; //0000 0011
-    printf("%d", var<<1);
+    printf("%d\n", var<<1); //0000 0110
+
+    // right shift
+    var = 6; //0000 0110
+    printf("%d\n", var>>1); //0000 0011
+
     return 0;
 }
